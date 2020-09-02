@@ -19,7 +19,7 @@
 package whisperv6
 
 import (
-	"github.com/wxjsj333/go-ethereum-wanchain/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

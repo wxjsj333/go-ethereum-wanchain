@@ -23,11 +23,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
-	lpc "github.com/wxjsj333/go-ethereum-wanchain/les/lespay/client"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	lpc "github.com/ethereum/go-ethereum/les/lespay/client"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

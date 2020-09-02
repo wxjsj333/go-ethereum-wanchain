@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/netutil"
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const Version = 4

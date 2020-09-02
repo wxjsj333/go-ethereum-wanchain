@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 const (

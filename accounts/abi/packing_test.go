@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type packUnpackTest struct {

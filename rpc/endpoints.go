@@ -19,7 +19,7 @@ package rpc
 import (
 	"net"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

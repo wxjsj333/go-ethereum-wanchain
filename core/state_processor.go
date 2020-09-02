@@ -17,14 +17,14 @@
 package core
 
 import (
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus"
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus/misc"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/state"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/vm"
-	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/consensus/misc"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

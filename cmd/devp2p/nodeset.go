@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 const jsonIndent = "    "

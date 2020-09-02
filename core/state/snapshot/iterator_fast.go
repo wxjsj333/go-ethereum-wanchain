@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

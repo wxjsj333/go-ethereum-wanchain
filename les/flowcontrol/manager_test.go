@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 type testNode struct {

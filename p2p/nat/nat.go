@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

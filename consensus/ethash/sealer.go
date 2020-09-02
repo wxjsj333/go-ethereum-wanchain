@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/common/hexutil"
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 const (

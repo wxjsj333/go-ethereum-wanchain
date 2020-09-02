@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

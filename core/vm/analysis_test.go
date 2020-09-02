@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

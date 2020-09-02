@@ -22,9 +22,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/hexutil"
-	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 var (

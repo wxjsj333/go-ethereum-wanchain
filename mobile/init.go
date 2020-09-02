@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 func init() {

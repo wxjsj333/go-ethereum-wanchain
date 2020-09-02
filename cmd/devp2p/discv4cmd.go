@@ -23,13 +23,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/cmd/devp2p/internal/v4test"
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
-	"github.com/wxjsj333/go-ethereum-wanchain/internal/utesting"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/discover"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/internal/utesting"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

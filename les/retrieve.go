@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/light"
+	"github.com/ethereum/go-ethereum/light"
 )
 
 var (

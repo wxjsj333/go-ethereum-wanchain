@@ -29,11 +29,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/wxjsj333/go-ethereum-wanchain/console/prompt"
-	"github.com/wxjsj333/go-ethereum-wanchain/internal/jsre"
-	"github.com/wxjsj333/go-ethereum-wanchain/internal/jsre/deps"
-	"github.com/wxjsj333/go-ethereum-wanchain/internal/web3ext"
-	"github.com/wxjsj333/go-ethereum-wanchain/rpc"
+	"github.com/ethereum/go-ethereum/console/prompt"
+	"github.com/ethereum/go-ethereum/internal/jsre"
+	"github.com/ethereum/go-ethereum/internal/jsre/deps"
+	"github.com/ethereum/go-ethereum/internal/web3ext"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/accounts/abi"
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus"
-	"github.com/wxjsj333/go-ethereum-wanchain/core"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/asm"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/rawdb"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/state"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/vm"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/asm"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestDefaults(t *testing.T) {

@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/bitutil"
-	"github.com/wxjsj333/go-ethereum-wanchain/light"
+	"github.com/ethereum/go-ethereum/common/bitutil"
+	"github.com/ethereum/go-ethereum/light"
 )
 
 const (

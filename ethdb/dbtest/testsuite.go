@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

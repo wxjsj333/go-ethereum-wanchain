@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/dnsdisc"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

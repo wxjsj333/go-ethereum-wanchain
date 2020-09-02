@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
-	"github.com/wxjsj333/go-ethereum-wanchain/common/prque"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

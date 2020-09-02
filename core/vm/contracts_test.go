@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

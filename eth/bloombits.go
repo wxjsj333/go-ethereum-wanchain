@@ -20,13 +20,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/common/bitutil"
-	"github.com/wxjsj333/go-ethereum-wanchain/core"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/bloombits"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/rawdb"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
-	"github.com/wxjsj333/go-ethereum-wanchain/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/bitutil"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/bloombits"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 const (

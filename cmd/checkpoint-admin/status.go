@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/cmd/utils"
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

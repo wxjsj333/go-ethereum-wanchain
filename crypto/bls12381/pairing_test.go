@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestPairingExpected(t *testing.T) {

@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/wxjsj333/go-ethereum-wanchain/metrics"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/p2p"
 )
 
 var (

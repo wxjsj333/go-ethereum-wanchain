@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus/ethash"
-	"github.com/wxjsj333/go-ethereum-wanchain/core"
-	"github.com/wxjsj333/go-ethereum-wanchain/eth/downloader"
-	"github.com/wxjsj333/go-ethereum-wanchain/eth/gasprice"
-	"github.com/wxjsj333/go-ethereum-wanchain/miner"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/eth/downloader"
+	"github.com/ethereum/go-ethereum/eth/gasprice"
+	"github.com/ethereum/go-ethereum/miner"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

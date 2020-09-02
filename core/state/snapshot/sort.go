@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // hashes is a helper to implement sort.Interface.

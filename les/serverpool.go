@@ -24,15 +24,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
-	"github.com/wxjsj333/go-ethereum-wanchain/ethdb"
-	lpc "github.com/wxjsj333/go-ethereum-wanchain/les/lespay/client"
-	"github.com/wxjsj333/go-ethereum-wanchain/les/utils"
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enr"
-	"github.com/wxjsj333/go-ethereum-wanchain/p2p/nodestate"
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/ethdb"
+	lpc "github.com/ethereum/go-ethereum/les/lespay/client"
+	"github.com/ethereum/go-ethereum/les/utils"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

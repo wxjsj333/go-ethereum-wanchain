@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/les/utils"
+	"github.com/ethereum/go-ethereum/les/utils"
 )
 
 func TestTransition(t *testing.T) {

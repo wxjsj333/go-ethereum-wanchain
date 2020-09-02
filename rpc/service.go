@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

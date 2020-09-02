@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

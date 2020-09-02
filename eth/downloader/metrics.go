@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/wxjsj333/go-ethereum-wanchain/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

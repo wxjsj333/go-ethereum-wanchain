@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/consensus"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/state"
-	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
-	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

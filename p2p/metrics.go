@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const (

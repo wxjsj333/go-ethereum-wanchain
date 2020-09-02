@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type AddrLocker struct {

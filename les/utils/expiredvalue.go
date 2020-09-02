@@ -19,7 +19,7 @@ package utils
 import (
 	"math"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 // ExpiredValue is a scalar value that is continuously expired (decreased

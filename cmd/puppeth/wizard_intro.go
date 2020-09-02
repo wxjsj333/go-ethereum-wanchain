@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

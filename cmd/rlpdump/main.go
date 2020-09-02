@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/rlp"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (

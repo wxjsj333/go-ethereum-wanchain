@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wxjsj333/go-ethereum-wanchain/accounts/keystore"
-	"github.com/wxjsj333/go-ethereum-wanchain/common"
-	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

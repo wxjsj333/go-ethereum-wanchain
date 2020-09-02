@@ -48,7 +48,7 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/wxjsj333/go-ethereum-wanchain/issues/</url>
+    <url>https://github.com/ethereum/go-ethereum/issues/</url>
   </issueManagement>
 
   <scm>
