@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/ethdb"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
 )
 
 // ReadSnapshotRoot retrieves the root of the block whose state is contained in

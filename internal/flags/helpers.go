@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

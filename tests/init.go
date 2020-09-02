@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/state"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/vm"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
 )
 
 type account struct{}

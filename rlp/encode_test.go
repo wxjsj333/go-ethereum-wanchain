@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/wxjsj333/go-ethereum-wanchain/common/math"
 )
 
 type testEncoder struct {

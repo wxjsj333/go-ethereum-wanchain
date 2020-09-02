@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/state"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

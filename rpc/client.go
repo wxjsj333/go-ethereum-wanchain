@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
 )
 
 var (

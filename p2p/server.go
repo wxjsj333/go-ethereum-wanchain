@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/common/mclock"
+	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
+	"github.com/wxjsj333/go-ethereum-wanchain/event"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/discover"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/discv5"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enr"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/nat"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/netutil"
 )
 
 const (

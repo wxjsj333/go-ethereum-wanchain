@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
 )
 
 var (

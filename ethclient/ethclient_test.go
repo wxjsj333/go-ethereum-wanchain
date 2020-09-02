@@ -26,15 +26,15 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/consensus/ethash"
+	"github.com/wxjsj333/go-ethereum-wanchain/core"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/rawdb"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
+	"github.com/wxjsj333/go-ethereum-wanchain/crypto"
+	"github.com/wxjsj333/go-ethereum-wanchain/eth"
+	"github.com/wxjsj333/go-ethereum-wanchain/node"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
 )
 
 // Verify that Client implements the ethereum interfaces.
