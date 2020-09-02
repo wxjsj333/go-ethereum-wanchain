@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
 	"github.com/rs/cors"
 )
 

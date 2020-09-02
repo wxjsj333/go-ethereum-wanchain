@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/rawdb"
+	"github.com/wxjsj333/go-ethereum-wanchain/ethdb"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
 )
 
 // wipeSnapshot starts a goroutine to iterate over the entire key-value database

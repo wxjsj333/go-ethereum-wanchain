@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wxjsj333/go-ethereum-wanchain/accounts"
+	"github.com/wxjsj333/go-ethereum-wanchain/accounts/keystore"
+	"github.com/wxjsj333/go-ethereum-wanchain/common"
+	"github.com/wxjsj333/go-ethereum-wanchain/core"
+	"github.com/wxjsj333/go-ethereum-wanchain/core/types"
+	"github.com/wxjsj333/go-ethereum-wanchain/eth"
+	"github.com/wxjsj333/go-ethereum-wanchain/eth/downloader"
+	"github.com/wxjsj333/go-ethereum-wanchain/ethclient"
+	"github.com/wxjsj333/go-ethereum-wanchain/ethstats"
+	"github.com/wxjsj333/go-ethereum-wanchain/les"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/node"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/discv5"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/enode"
+	"github.com/wxjsj333/go-ethereum-wanchain/p2p/nat"
+	"github.com/wxjsj333/go-ethereum-wanchain/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -470,7 +470,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/wxjsj333/go-ethereum-wanchain/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

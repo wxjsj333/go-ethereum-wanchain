@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wxjsj333/go-ethereum-wanchain/accounts"
+	"github.com/wxjsj333/go-ethereum-wanchain/event"
+	"github.com/wxjsj333/go-ethereum-wanchain/log"
 	"github.com/karalabe/usb"
 )
 
